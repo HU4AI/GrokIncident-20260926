@@ -1,18 +1,18 @@
 {
   "title": "Grok Theater: the orchestrator",
-  "issued_utc_local_clock": "2026-10-01T03:43:28.941047+00:00",
+  "issued_utc_local_clock": "2026-10-01T08:17:01.673050+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
   "integrity_only": true,
   "files": [
     {
       "path": "evidence-manifest.json",
-      "bytes": 446950,
-      "sha256": "31b910bb43af65f83484b3a096097903e4c2683ea7d920e5de410a8da7ed1a92"
+      "bytes": 447041,
+      "sha256": "e7c4c836ae741021942ccc476d2ba1bd0ef93d6b891546f3facde61517ad5dd8"
     },
     {
       "path": "evidence.pdf",
-      "bytes": 3830411,
-      "sha256": "74d82b06dcc34a736f8ea8bdce4a8560b83f5fa2a11e4be82869745f848d6149"
+      "bytes": 2355780,
+      "sha256": "801777bd3847befe7402b6f058c9f917a486d44582daa48aac31d1c7b2201dd9"
     },
     {
       "path": "full-report.html",
@@ -21,8 +21,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 64964,
-      "sha256": "eacbec35844108a6ce2285df432405b18de94c58084f0b502318004a50d567a9"
+      "bytes": 64998,
+      "sha256": "c3b92e88af4453cb695555589eacb5fc2609098fd15b3eacdbf01e217b9687db"
     },
     {
       "path": "integrity-certificate.cer",
@@ -40,74 +40,139 @@
       "sha256": "8b90563d05eca47d5a014f9f943f1e92cbd72afe7834fecedee622e244fe6f76"
     },
     {
+      "path": "media/01-grok-starts-again-compact.gif",
+      "bytes": 97458,
+      "sha256": "5f25ef3a12f2e10f918cb45f8f754156a74d24a9c628911f7ee1200e25cc14a4"
+    },
+    {
       "path": "media/01-grok-starts-again-frame-12357.png",
-      "bytes": 153530,
-      "sha256": "853ea701d075d255ba3baf5b2eb0501b19191d677d97ab5f76d547321173fb98"
+      "bytes": 127616,
+      "sha256": "67a663525eff9baf0f0c2e6bb5973697bd2266042203492e6608c13b1f5789ba"
     },
     {
       "path": "media/01-grok-starts-again-frame-12358.png",
-      "bytes": 153256,
-      "sha256": "047e5cdfccbe201ac265022bd2ae1df202e28135eeefdd42af6db1d1967d426d"
+      "bytes": 129481,
+      "sha256": "3ab95cca560120a757ef4a9b59506cb36b48abdeb139a554bc9149f4c855c490"
     },
     {
       "path": "media/01-grok-starts-again-poster.png",
-      "bytes": 158738,
-      "sha256": "b1ae6c9cf88e67607ea71abf142a8ff3ccdfa2d751cefb94b4b4c657e3e2e788"
+      "bytes": 229555,
+      "sha256": "6d58382be8ead2a17fee8171162322a32a500b9c15bf583e09ef1ded1ab8d287"
     },
     {
       "path": "media/01-grok-starts-again.gif",
-      "bytes": 2269199,
-      "sha256": "8951710aa63e744532fbcd1230c6a7b0bc709283198865fc4eb30f78b13f0d47"
+      "bytes": 2926966,
+      "sha256": "36866baef97ddc2d8d99ae6b0b2edfc857534baf1a175a8585e7f12870b5b2db"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats-compact.gif",
+      "bytes": 154898,
+      "sha256": "50633f8b3a47d758eb460de42a208e9fe1f5de5fce988f6162359642e854c195"
     },
     {
       "path": "media/02-back-and-forth-between-chats-frame-8070.png",
-      "bytes": 543661,
-      "sha256": "ff1fc2b341815a3083fbe80c82eea0beb664545ecdeb53a9706b8ecffdc70446"
+      "bytes": 495533,
+      "sha256": "e0ec5fe060b87cc147661dc8c140bd6ebaad7e26723c58df12e952e7261ea8c5"
     },
     {
       "path": "media/02-back-and-forth-between-chats-frame-8580.png",
-      "bytes": 464025,
-      "sha256": "8baad9eb140ff5e10947cbc458068ec24b3d9fe09e97ba5725aad71eaf17c1db"
+      "bytes": 421484,
+      "sha256": "6ce8432d7a788b428b3cc1d68fa05f0fd57f7c391bf7bf319fb5326e5ed56111"
     },
     {
       "path": "media/02-back-and-forth-between-chats-frame-9090.png",
-      "bytes": 310883,
-      "sha256": "616cb7d9717d8daa43663fd10afeed87c5721b8c09f597db393095d2535ac02e"
+      "bytes": 306065,
+      "sha256": "79579faced7e2b16cc3ec1ab84fb07572010e0a3006b8621eb5dc1db277a7c1d"
     },
     {
       "path": "media/02-back-and-forth-between-chats-poster.png",
-      "bytes": 543661,
-      "sha256": "ff1fc2b341815a3083fbe80c82eea0beb664545ecdeb53a9706b8ecffdc70446"
+      "bytes": 599252,
+      "sha256": "a5c62ad9d2b1965138a5946ce6f22c916e96c15ed272aa84c3ec3fb41a10d291"
     },
     {
       "path": "media/02-back-and-forth-between-chats.gif",
-      "bytes": 2010900,
-      "sha256": "c86eb36d3b8d16d2bdb13131ceefe475d6f8a5b9946e36d65da2e2597a8d91d8"
+      "bytes": 2470486,
+      "sha256": "2fa7d011aac1b28331029f4d84d1134f6e3e82477e369e723bce480ec4c097d6"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer-compact.gif",
+      "bytes": 174115,
+      "sha256": "d98d0b474ff7fbbae9e97ff570b06a5bcb0bceed334e284bcbbf24a093d00097"
     },
     {
       "path": "media/03-reviewer-parent-reviewer-frame-10200.png",
-      "bytes": 309183,
-      "sha256": "4c6a816f1e3d645b782015cbdf1c1107ad7aded9f5b0b61a4dfc9d1d4f46f230"
+      "bytes": 304116,
+      "sha256": "533c2081f00fc3b7ea7cb0d1aa0711bde5ac24f2d5f0d695324a3dffa43b1379"
     },
     {
       "path": "media/03-reviewer-parent-reviewer-frame-10470.png",
-      "bytes": 484047,
-      "sha256": "e91326211ea189bf9452678de97e52146291f9f48c33924baa5ad4f631710a79"
+      "bytes": 435561,
+      "sha256": "96c9b7bcf096f82c47611737ef24d2ee60808756b385af4ac198095dc702728a"
     },
     {
       "path": "media/03-reviewer-parent-reviewer-frame-9930.png",
-      "bytes": 521042,
-      "sha256": "8f9e6cfac3e0905466ad68574a478dab7f5db5c8aba1743556e06b7dd65d9a33"
+      "bytes": 462441,
+      "sha256": "728771a0f8b12a38dc05c4b02cd845468984f2c68586e63b01587307ac045c2e"
     },
     {
       "path": "media/03-reviewer-parent-reviewer-poster.png",
-      "bytes": 521042,
-      "sha256": "8f9e6cfac3e0905466ad68574a478dab7f5db5c8aba1743556e06b7dd65d9a33"
+      "bytes": 562765,
+      "sha256": "c4017dd016898094cfb3168892b430886711048aea704812b85c8f4e28ecc9c2"
     },
     {
       "path": "media/03-reviewer-parent-reviewer.gif",
-      "bytes": 3867513,
-      "sha256": "39fbdb2980c0daf4b0a4e1bf1cd2a5e07628e00f6d8413430be93f107fc2f85a"
+      "bytes": 4522432,
+      "sha256": "019a5ccd8816b8b231065c7ffe8bf4ffddfdfc3e9c64d5a9ef69d8d80f30ce32"
+    },
+    {
+      "path": "media/original-video-manifest.json",
+      "bytes": 174539,
+      "sha256": "ed9828cb62231f7cbf2892693485e9bc5d95f37f0d7b6efa4ed22ff3055c0de2"
+    },
+    {
+      "path": "media/original-video-README.md",
+      "bytes": 1598,
+      "sha256": "364bb0a49f0d7aa6a5aa9f9357ed2ca2a22b5883550f1f30ab32ca158c658cb4"
+    },
+    {
+      "path": "media/recording-download.json",
+      "bytes": 1172,
+      "sha256": "9329d963ca5af35bf612940ed067d4eaefac9179435d64ece789113157f04b5c"
+    },
+    {
+      "path": "media/recording-parts/part-01.bin",
+      "bytes": 20971520,
+      "sha256": "6f30cbfaddc1b428e67c4bb79a314cc4dd3a95c2775368d41c1492cce2cf44b6"
+    },
+    {
+      "path": "media/recording-parts/part-02.bin",
+      "bytes": 20971520,
+      "sha256": "8d7269b3d539c83ed1cb48a2b126a3e4c086df9f8fcef1c1781bfc79dd8374b1"
+    },
+    {
+      "path": "media/recording-parts/part-03.bin",
+      "bytes": 20971520,
+      "sha256": "c545be41fd3a0a2ad3bb1698e12e343e4b37e46ac4e506d1892ed2c788ab7fad"
+    },
+    {
+      "path": "media/recording-parts/part-04.bin",
+      "bytes": 20971520,
+      "sha256": "6817653d65691a4dee6562a20b78df9fbec576f788db68cd48c097e2e47a450c"
+    },
+    {
+      "path": "media/recording-parts/part-05.bin",
+      "bytes": 9909757,
+      "sha256": "f4c03aef10a167dec3bc74a00739b294de658ee910c4e8cd4850502d7121ac4c"
+    },
+    {
+      "path": "media/recording-player.js",
+      "bytes": 1753,
+      "sha256": "45a6baf79911114cfebf71c49285435e538fa9d1dc3024337f5757f4684e7488"
+    },
+    {
+      "path": "media/recording.html",
+      "bytes": 1965,
+      "sha256": "81e357506aba7d9d7af88889f7e00583b0edcfa706c0c49581f01fb152a5e977"
     },
     {
       "path": "original-video-verification.json",
@@ -117,17 +182,17 @@
     {
       "path": "signature-verification.json",
       "bytes": 1237,
-      "sha256": "0ca6c59fd87a4578ed0707611107138dece0b755090cf2208a016153c71dddf5"
+      "sha256": "a41a82fc142bd1b2c41387051cbeb7d165fb5683b90661a0addfa1918056c1e1"
     },
     {
       "path": "sources.html",
-      "bytes": 208856,
-      "sha256": "90f896fc3a3c8c765c2f7a3bf0a4d1f9f30648bff4229e6b3b2b0ff330664342"
+      "bytes": 209018,
+      "sha256": "02cae97629a6341f239d950bbddbac75b9351474c14f7b3f7730ef6cda9a8fd7"
     },
     {
       "path": "verification.html",
-      "bytes": 2950,
-      "sha256": "2e781f9de5e98db048a18646060448a394d60ad81dad44807e8e0a7098db1a17"
+      "bytes": 3040,
+      "sha256": "fa68a8a8ac07dab515893fb9109996fcbd8627282aa9e882725c3a7db694c460"
     },
     {
       "path": "verify_release.py",

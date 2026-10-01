@@ -1,0 +1,33 @@
+{
+  "filename": "source-recording.mp4",
+  "bytes": 93795837,
+  "sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
+  "parts": [
+    {
+      "path": "recording-parts/part-01.bin",
+      "bytes": 20971520,
+      "sha256": "6f30cbfaddc1b428e67c4bb79a314cc4dd3a95c2775368d41c1492cce2cf44b6"
+    },
+    {
+      "path": "recording-parts/part-02.bin",
+      "bytes": 20971520,
+      "sha256": "8d7269b3d539c83ed1cb48a2b126a3e4c086df9f8fcef1c1781bfc79dd8374b1"
+    },
+    {
+      "path": "recording-parts/part-03.bin",
+      "bytes": 20971520,
+      "sha256": "c545be41fd3a0a2ad3bb1698e12e343e4b37e46ac4e506d1892ed2c788ab7fad"
+    },
+    {
+      "path": "recording-parts/part-04.bin",
+      "bytes": 20971520,
+      "sha256": "6817653d65691a4dee6562a20b78df9fbec576f788db68cd48c097e2e47a450c"
+    },
+    {
+      "path": "recording-parts/part-05.bin",
+      "bytes": 9909757,
+      "sha256": "f4c03aef10a167dec3bc74a00739b294de658ee910c4e8cd4850502d7121ac4c"
+    }
+  ],
+  "transport": "Exact byte partitions, concatenated and hash-checked in the reader browser. No video re-encoding, cropping, masking or dropped frames."
+}

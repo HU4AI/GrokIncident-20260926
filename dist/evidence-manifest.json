@@ -1,8 +1,8 @@
 {
-  "prepared_utc": "2026-10-01T03:41:08.747287+00:00",
+  "prepared_utc": "2026-10-01T08:16:23.239678+00:00",
   "client_preparation_date": "2026-10-01",
   "title": "Grok Theater: the orchestrator",
-  "scope": "Separate public reading copy, 20 selected timeline entries, three privacy-masked real-frame loops, 108 selected cited-line exhibits, 78 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
+  "scope": "Separate public reading copy, 20 selected timeline entries, three original unmasked real-frame loops and the byte-identical reconstructed recording, 108 selected cited-line exhibits, 78 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
   "source_records": [
     {
       "id": "S001",
@@ -2713,11 +2713,52 @@
     "source_sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
     "source_bytes": 93795837,
     "source_timing_limit": "Reconstructed recording assumes 30 fps. Offsets are file timing, not independently recovered wall-clock timing.",
+    "public_recording": {
+      "path": "media/recording.html",
+      "downloaded_filename": "source-recording.mp4",
+      "transport": {
+        "filename": "source-recording.mp4",
+        "bytes": 93795837,
+        "sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
+        "parts": [
+          {
+            "path": "recording-parts/part-01.bin",
+            "bytes": 20971520,
+            "sha256": "6f30cbfaddc1b428e67c4bb79a314cc4dd3a95c2775368d41c1492cce2cf44b6"
+          },
+          {
+            "path": "recording-parts/part-02.bin",
+            "bytes": 20971520,
+            "sha256": "8d7269b3d539c83ed1cb48a2b126a3e4c086df9f8fcef1c1781bfc79dd8374b1"
+          },
+          {
+            "path": "recording-parts/part-03.bin",
+            "bytes": 20971520,
+            "sha256": "c545be41fd3a0a2ad3bb1698e12e343e4b37e46ac4e506d1892ed2c788ab7fad"
+          },
+          {
+            "path": "recording-parts/part-04.bin",
+            "bytes": 20971520,
+            "sha256": "6817653d65691a4dee6562a20b78df9fbec576f788db68cd48c097e2e47a450c"
+          },
+          {
+            "path": "recording-parts/part-05.bin",
+            "bytes": 9909757,
+            "sha256": "f4c03aef10a167dec3bc74a00739b294de658ee910c4e8cd4850502d7121ac4c"
+          }
+        ],
+        "transport": "Exact byte partitions, concatenated and hash-checked in the reader browser. No video re-encoding, cropping, masking or dropped frames."
+      },
+      "bytes": 93795837,
+      "sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
+      "byte_identical_to_preserved_recording": true,
+      "privacy_masks": false
+    },
     "public_derivatives": [
       {
         "path": "media/01-grok-starts-again.gif",
-        "sha256": "8951710aa63e744532fbcd1230c6a7b0bc709283198865fc4eb30f78b13f0d47",
-        "bytes": 2269199,
+        "sha256": "36866baef97ddc2d8d99ae6b0b2edfc857534baf1a175a8585e7f12870b5b2db",
+        "bytes": 2926966,
         "duration_ms": 9030,
         "source_recording_sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
         "source_frame_mapping": [
@@ -3583,59 +3624,23 @@
             "path": "media/01-grok-starts-again-frame-12357.png",
             "source_frame_index_zero_based": 12357,
             "source_offset_seconds": 411.9,
-            "sha256": "853ea701d075d255ba3baf5b2eb0501b19191d677d97ab5f76d547321173fb98"
+            "sha256": "67a663525eff9baf0f0c2e6bb5973697bd2266042203492e6608c13b1f5789ba"
           },
           {
             "path": "media/01-grok-starts-again-frame-12358.png",
             "source_frame_index_zero_based": 12358,
             "source_offset_seconds": 411.93333333333334,
-            "sha256": "047e5cdfccbe201ac265022bd2ae1df202e28135eeefdd42af6db1d1967d426d"
+            "sha256": "3ab95cca560120a757ef4a9b59506cb36b48abdeb139a554bc9149f4c855c490"
           }
         ],
-        "mask_rectangles_in_2192x1376_source": [
-          [
-            0,
-            0,
-            2192,
-            70
-          ],
-          [
-            0,
-            1250,
-            438,
-            1310
-          ],
-          [
-            0,
-            390,
-            438,
-            470
-          ],
-          [
-            0,
-            520,
-            438,
-            590
-          ],
-          [
-            1710,
-            70,
-            2192,
-            300
-          ],
-          [
-            0,
-            1270,
-            2192,
-            1376
-          ]
-        ],
-        "transformations": "Opaque privacy masks applied before the previously disclosed crop/resize, new labels outside source image, shared GIF palette. Original recording and previous derivatives unchanged."
+        "mask_rectangles_in_2192x1376_source": [],
+        "byte_identical_to_preserved_gif": true,
+        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
       },
       {
         "path": "media/02-back-and-forth-between-chats.gif",
-        "sha256": "c86eb36d3b8d16d2bdb13131ceefe475d6f8a5b9946e36d65da2e2597a8d91d8",
-        "bytes": 2010900,
+        "sha256": "2fa7d011aac1b28331029f4d84d1134f6e3e82477e369e723bce480ec4c097d6",
+        "bytes": 2470486,
         "duration_ms": 17050,
         "source_recording_sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
         "source_frame_mapping": [
@@ -6373,65 +6378,29 @@
             "path": "media/02-back-and-forth-between-chats-frame-8070.png",
             "source_frame_index_zero_based": 8070,
             "source_offset_seconds": 269.0,
-            "sha256": "ff1fc2b341815a3083fbe80c82eea0beb664545ecdeb53a9706b8ecffdc70446"
+            "sha256": "e0ec5fe060b87cc147661dc8c140bd6ebaad7e26723c58df12e952e7261ea8c5"
           },
           {
             "path": "media/02-back-and-forth-between-chats-frame-8580.png",
             "source_frame_index_zero_based": 8580,
             "source_offset_seconds": 286.0,
-            "sha256": "8baad9eb140ff5e10947cbc458068ec24b3d9fe09e97ba5725aad71eaf17c1db"
+            "sha256": "6ce8432d7a788b428b3cc1d68fa05f0fd57f7c391bf7bf319fb5326e5ed56111"
           },
           {
             "path": "media/02-back-and-forth-between-chats-frame-9090.png",
             "source_frame_index_zero_based": 9090,
             "source_offset_seconds": 303.0,
-            "sha256": "616cb7d9717d8daa43663fd10afeed87c5721b8c09f597db393095d2535ac02e"
+            "sha256": "79579faced7e2b16cc3ec1ab84fb07572010e0a3006b8621eb5dc1db277a7c1d"
           }
         ],
-        "mask_rectangles_in_2192x1376_source": [
-          [
-            0,
-            0,
-            2192,
-            70
-          ],
-          [
-            0,
-            1250,
-            438,
-            1310
-          ],
-          [
-            0,
-            390,
-            438,
-            470
-          ],
-          [
-            0,
-            520,
-            438,
-            590
-          ],
-          [
-            1710,
-            70,
-            2192,
-            300
-          ],
-          [
-            0,
-            1270,
-            2192,
-            1376
-          ]
-        ],
-        "transformations": "Opaque privacy masks applied before the previously disclosed crop/resize, new labels outside source image, shared GIF palette. Original recording and previous derivatives unchanged."
+        "mask_rectangles_in_2192x1376_source": [],
+        "byte_identical_to_preserved_gif": true,
+        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
       },
       {
         "path": "media/03-reviewer-parent-reviewer.gif",
-        "sha256": "39fbdb2980c0daf4b0a4e1bf1cd2a5e07628e00f6d8413430be93f107fc2f85a",
-        "bytes": 3867513,
+        "sha256": "019a5ccd8816b8b231065c7ffe8bf4ffddfdfc3e9c64d5a9ef69d8d80f30ce32",
+        "bytes": 4522432,
         "duration_ms": 9050,
         "source_recording_sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
         "source_frame_mapping": [
@@ -7889,60 +7858,24 @@
             "path": "media/03-reviewer-parent-reviewer-frame-9930.png",
             "source_frame_index_zero_based": 9930,
             "source_offset_seconds": 331.0,
-            "sha256": "8f9e6cfac3e0905466ad68574a478dab7f5db5c8aba1743556e06b7dd65d9a33"
+            "sha256": "728771a0f8b12a38dc05c4b02cd845468984f2c68586e63b01587307ac045c2e"
           },
           {
             "path": "media/03-reviewer-parent-reviewer-frame-10200.png",
             "source_frame_index_zero_based": 10200,
             "source_offset_seconds": 340.0,
-            "sha256": "4c6a816f1e3d645b782015cbdf1c1107ad7aded9f5b0b61a4dfc9d1d4f46f230"
+            "sha256": "533c2081f00fc3b7ea7cb0d1aa0711bde5ac24f2d5f0d695324a3dffa43b1379"
           },
           {
             "path": "media/03-reviewer-parent-reviewer-frame-10470.png",
             "source_frame_index_zero_based": 10470,
             "source_offset_seconds": 349.0,
-            "sha256": "e91326211ea189bf9452678de97e52146291f9f48c33924baa5ad4f631710a79"
+            "sha256": "96c9b7bcf096f82c47611737ef24d2ee60808756b385af4ac198095dc702728a"
           }
         ],
-        "mask_rectangles_in_2192x1376_source": [
-          [
-            0,
-            0,
-            2192,
-            70
-          ],
-          [
-            0,
-            1250,
-            438,
-            1310
-          ],
-          [
-            0,
-            390,
-            438,
-            470
-          ],
-          [
-            0,
-            520,
-            438,
-            590
-          ],
-          [
-            1710,
-            70,
-            2192,
-            300
-          ],
-          [
-            0,
-            1270,
-            2192,
-            1376
-          ]
-        ],
-        "transformations": "Opaque privacy masks applied before the previously disclosed crop/resize, new labels outside source image, shared GIF palette. Original recording and previous derivatives unchanged."
+        "mask_rectangles_in_2192x1376_source": [],
+        "byte_identical_to_preserved_gif": true,
+        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
       }
     ]
   },
