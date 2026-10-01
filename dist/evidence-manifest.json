@@ -1,8 +1,8 @@
 {
-  "prepared_utc": "2026-10-01T11:08:35.660747+00:00",
+  "prepared_utc": "2026-10-01T11:27:49.810849+00:00",
   "client_preparation_date": "2026-10-01",
   "title": "Grok Theater: the orchestrator",
-  "scope": "Separate public reading copy, 20 selected timeline entries, three real-frame loops and the preserved reconstructed recording, 108 selected cited-line exhibits, 78 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
+  "scope": "Separate public reading copy, instruction workflow and three saved prompt-authorship examples, 20 selected timeline entries, three real-frame loops and the preserved reconstructed recording, 108 selected cited-line exhibits, 79 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
   "source_records": [
     {
       "id": "S001",
@@ -471,6 +471,12 @@
       "path": "preservation/README.md",
       "bytes": 7142,
       "sha256": "af6871deda6f38979f9f3934d21558364f3e5f81b190295ac85502611a3762b5"
+    },
+    {
+      "id": "S079",
+      "path": "astra-incident-correspondence-20260929/page_014.json",
+      "bytes": 34706,
+      "sha256": "c74c9e23e4b09cefbac41f9306259ffde8d2ce2cb1293052ad890c779ae1b5ec"
     }
   ],
   "exhibits": [
@@ -8008,6 +8014,42 @@
     "Exact Astra power-cut reply not recovered.",
     "September 26 global database capture incomplete.",
     "Replay reproducibility not yet demonstrated.",
-    "Procedural requirements and jurisdiction not supplied."
-  ]
+    "Procedural requirements and jurisdiction not supplied.",
+    "Astra adviser model and historical High/Medium thinking setting are not recorded in the September 26 ChatGPT export."
+  ],
+  "prompt_authorship": {
+    "model_status": "Astra 6 is the user-recalled adviser; September 26 ChatGPT model selection and reasoning setting are absent from the retained export.",
+    "source": {
+      "path": "astra-incident-correspondence-20260929/page_014.json",
+      "bytes": 34706,
+      "sha256": "c74c9e23e4b09cefbac41f9306259ffde8d2ce2cb1293052ad890c779ae1b5ec",
+      "scope": "Unmodified read_thread export preserved on September 29. JSON roles establish who wrote each saved message. Image pixels and model/thinking metadata are absent."
+    },
+    "examples": [
+      {
+        "title": "Review request drafted by Astra",
+        "turn_id": "dbf12711-3d35-4c34-933c-747309a4f1f7",
+        "requested_utc": "2026-09-26T05:57:22.708000+00:00",
+        "returned_utc": "2026-09-26T05:57:57.265875+00:00",
+        "quote": "Start a separate review agent now to independently audit all 20 tasks you have been working on. This is explicit authorization to delegate the review. Do not stop at proposing a plan.",
+        "role": "agentMessage"
+      },
+      {
+        "title": "Additional review requirements drafted by Astra",
+        "turn_id": "990e5fd2-d27d-4bb7-af28-2ba0367a3fa7",
+        "requested_utc": "2026-09-26T06:06:33.816000+00:00",
+        "returned_utc": "2026-09-26T06:06:58.337658+00:00",
+        "quote": "Do not label finding-level preservation “Verified complete” based solely on samples, row counts, or IMPLEMENT claims.",
+        "role": "agentMessage"
+      },
+      {
+        "title": "Broken reviewer-link correction drafted by Astra",
+        "turn_id": "0bd45faa-3ee2-4155-b7a9-cd43d6d4c7ad",
+        "requested_utc": "2026-09-26T06:25:58.514000+00:00",
+        "returned_utc": "2026-09-26T06:26:17.116147+00:00",
+        "quote": "The reviewer link returns me to this screen instead of opening its session. Stop adding explanations and status summaries.",
+        "role": "agentMessage"
+      }
+    ]
+  }
 }

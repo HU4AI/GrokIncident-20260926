@@ -1,7 +1,7 @@
 {
-  "signed_utc_local_clock": "2026-10-01T11:09:05.315813+00:00",
+  "signed_utc_local_clock": "2026-10-01T11:28:16.992972+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
-  "pdf_sha256": "557370e4d42190fda4bc1eaae0308722bb164a62b947e44c6433ffad4dfbac1c",
+  "pdf_sha256": "3ba8f5f1e14eac051bd091ac01c554e49ca3ecf14b16371f72e2c9a99c51c591",
   "pdf_signature": {
     "intact": true,
     "cryptographically_valid": true,
