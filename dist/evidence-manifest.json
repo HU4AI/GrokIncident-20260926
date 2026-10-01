@@ -1,8 +1,8 @@
 {
-  "prepared_utc": "2026-10-01T08:16:23.239678+00:00",
+  "prepared_utc": "2026-10-01T08:28:02.248938+00:00",
   "client_preparation_date": "2026-10-01",
   "title": "Grok Theater: the orchestrator",
-  "scope": "Separate public reading copy, 20 selected timeline entries, three original unmasked real-frame loops and the byte-identical reconstructed recording, 108 selected cited-line exhibits, 78 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
+  "scope": "Separate public reading copy, 20 selected timeline entries, three real-frame loops and the preserved reconstructed recording, 108 selected cited-line exhibits, 78 checked source-file hashes, and preservation manifest references. Not a complete forensic image or sworn statement.",
   "source_records": [
     {
       "id": "S001",
@@ -3635,7 +3635,7 @@
         ],
         "mask_rectangles_in_2192x1376_source": [],
         "byte_identical_to_preserved_gif": true,
-        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
+        "transformations": "Recorded frames with crops, zoom, labels, palette and playback timing detailed in original-video-manifest.json."
       },
       {
         "path": "media/02-back-and-forth-between-chats.gif",
@@ -6395,7 +6395,7 @@
         ],
         "mask_rectangles_in_2192x1376_source": [],
         "byte_identical_to_preserved_gif": true,
-        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
+        "transformations": "Recorded frames with crops, zoom, labels, palette and playback timing detailed in original-video-manifest.json."
       },
       {
         "path": "media/03-reviewer-parent-reviewer.gif",
@@ -7875,7 +7875,7 @@
         ],
         "mask_rectangles_in_2192x1376_source": [],
         "byte_identical_to_preserved_gif": true,
-        "transformations": "Original preserved GIF, unchanged. Existing crops, zoom, labels, palette and playback timing remain disclosed in original-video-manifest.json. No privacy masks added."
+        "transformations": "Recorded frames with crops, zoom, labels, palette and playback timing detailed in original-video-manifest.json."
       }
     ]
   },

@@ -1,28 +1,28 @@
 {
   "title": "Grok Theater: the orchestrator",
-  "issued_utc_local_clock": "2026-10-01T08:17:01.673050+00:00",
+  "issued_utc_local_clock": "2026-10-01T08:29:27.823710+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
   "integrity_only": true,
   "files": [
     {
       "path": "evidence-manifest.json",
-      "bytes": 447041,
-      "sha256": "e7c4c836ae741021942ccc476d2ba1bd0ef93d6b891546f3facde61517ad5dd8"
+      "bytes": 446853,
+      "sha256": "c1bb9255ac7ded23cf37237726936cd58c1218d8e85a09aefb7bec60e4c97743"
     },
     {
       "path": "evidence.pdf",
-      "bytes": 2355780,
-      "sha256": "801777bd3847befe7402b6f058c9f917a486d44582daa48aac31d1c7b2201dd9"
+      "bytes": 2355592,
+      "sha256": "57fceb6ff091a25ddafff16b21a1fb0baaca872fc0cf0b5015a4998ee2d33d01"
     },
     {
       "path": "full-report.html",
-      "bytes": 99670,
-      "sha256": "8b2b59636a284ccbcc31e1157b8e0454bb238e33540df3464cfd6d41ad89d547"
+      "bytes": 98665,
+      "sha256": "bdb9489371272a9eb07d0663619f7010970b65789605f1481ba13465e7cfc0fa"
     },
     {
       "path": "index.html",
-      "bytes": 64998,
-      "sha256": "c3b92e88af4453cb695555589eacb5fc2609098fd15b3eacdbf01e217b9687db"
+      "bytes": 64921,
+      "sha256": "d7e0f50f7bf2ae9c21b6229cf58b27a41d480a380e998fad26d5b53c0d8acc38"
     },
     {
       "path": "integrity-certificate.cer",
@@ -166,13 +166,13 @@
     },
     {
       "path": "media/recording-player.js",
-      "bytes": 1753,
-      "sha256": "45a6baf79911114cfebf71c49285435e538fa9d1dc3024337f5757f4684e7488"
+      "bytes": 1690,
+      "sha256": "e372ba7c5842cfcfc07a6bff92457905c66af8aedef55bab94a1120500125df7"
     },
     {
       "path": "media/recording.html",
-      "bytes": 1965,
-      "sha256": "81e357506aba7d9d7af88889f7e00583b0edcfa706c0c49581f01fb152a5e977"
+      "bytes": 1910,
+      "sha256": "45126b7110cf7d338ebca54e970594eb2a8f0d999dffbcd02877d16366b63db9"
     },
     {
       "path": "original-video-verification.json",
@@ -182,7 +182,7 @@
     {
       "path": "signature-verification.json",
       "bytes": 1237,
-      "sha256": "a41a82fc142bd1b2c41387051cbeb7d165fb5683b90661a0addfa1918056c1e1"
+      "sha256": "0799cbae011a296875b024efcd1c6867743cfeb932e342b10df624f576cc7103"
     },
     {
       "path": "sources.html",
@@ -192,7 +192,7 @@
     {
       "path": "verification.html",
       "bytes": 3040,
-      "sha256": "fa68a8a8ac07dab515893fb9109996fcbd8627282aa9e882725c3a7db694c460"
+      "sha256": "002ac0d80eda3ae1d9686cabe26c823122617e5cd3b027607c37f91ce5b52884"
     },
     {
       "path": "verify_release.py",
