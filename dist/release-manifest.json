@@ -1,0 +1,138 @@
+{
+  "title": "Grok Theater: the orchestrator",
+  "issued_utc_local_clock": "2026-10-01T03:43:28.941047+00:00",
+  "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
+  "integrity_only": true,
+  "files": [
+    {
+      "path": "evidence-manifest.json",
+      "bytes": 446950,
+      "sha256": "31b910bb43af65f83484b3a096097903e4c2683ea7d920e5de410a8da7ed1a92"
+    },
+    {
+      "path": "evidence.pdf",
+      "bytes": 3830411,
+      "sha256": "74d82b06dcc34a736f8ea8bdce4a8560b83f5fa2a11e4be82869745f848d6149"
+    },
+    {
+      "path": "full-report.html",
+      "bytes": 99670,
+      "sha256": "8b2b59636a284ccbcc31e1157b8e0454bb238e33540df3464cfd6d41ad89d547"
+    },
+    {
+      "path": "index.html",
+      "bytes": 64964,
+      "sha256": "eacbec35844108a6ce2285df432405b18de94c58084f0b502318004a50d567a9"
+    },
+    {
+      "path": "integrity-certificate.cer",
+      "bytes": 1231,
+      "sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4"
+    },
+    {
+      "path": "integrity-certificate.pem",
+      "bytes": 1724,
+      "sha256": "728daab693f37fd53f92cf897dc929b2bb0fc05ed9ad8a4b5dacb6c2a588cc27"
+    },
+    {
+      "path": "integrity-public-key.pem",
+      "bytes": 625,
+      "sha256": "8b90563d05eca47d5a014f9f943f1e92cbd72afe7834fecedee622e244fe6f76"
+    },
+    {
+      "path": "media/01-grok-starts-again-frame-12357.png",
+      "bytes": 153530,
+      "sha256": "853ea701d075d255ba3baf5b2eb0501b19191d677d97ab5f76d547321173fb98"
+    },
+    {
+      "path": "media/01-grok-starts-again-frame-12358.png",
+      "bytes": 153256,
+      "sha256": "047e5cdfccbe201ac265022bd2ae1df202e28135eeefdd42af6db1d1967d426d"
+    },
+    {
+      "path": "media/01-grok-starts-again-poster.png",
+      "bytes": 158738,
+      "sha256": "b1ae6c9cf88e67607ea71abf142a8ff3ccdfa2d751cefb94b4b4c657e3e2e788"
+    },
+    {
+      "path": "media/01-grok-starts-again.gif",
+      "bytes": 2269199,
+      "sha256": "8951710aa63e744532fbcd1230c6a7b0bc709283198865fc4eb30f78b13f0d47"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats-frame-8070.png",
+      "bytes": 543661,
+      "sha256": "ff1fc2b341815a3083fbe80c82eea0beb664545ecdeb53a9706b8ecffdc70446"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats-frame-8580.png",
+      "bytes": 464025,
+      "sha256": "8baad9eb140ff5e10947cbc458068ec24b3d9fe09e97ba5725aad71eaf17c1db"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats-frame-9090.png",
+      "bytes": 310883,
+      "sha256": "616cb7d9717d8daa43663fd10afeed87c5721b8c09f597db393095d2535ac02e"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats-poster.png",
+      "bytes": 543661,
+      "sha256": "ff1fc2b341815a3083fbe80c82eea0beb664545ecdeb53a9706b8ecffdc70446"
+    },
+    {
+      "path": "media/02-back-and-forth-between-chats.gif",
+      "bytes": 2010900,
+      "sha256": "c86eb36d3b8d16d2bdb13131ceefe475d6f8a5b9946e36d65da2e2597a8d91d8"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer-frame-10200.png",
+      "bytes": 309183,
+      "sha256": "4c6a816f1e3d645b782015cbdf1c1107ad7aded9f5b0b61a4dfc9d1d4f46f230"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer-frame-10470.png",
+      "bytes": 484047,
+      "sha256": "e91326211ea189bf9452678de97e52146291f9f48c33924baa5ad4f631710a79"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer-frame-9930.png",
+      "bytes": 521042,
+      "sha256": "8f9e6cfac3e0905466ad68574a478dab7f5db5c8aba1743556e06b7dd65d9a33"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer-poster.png",
+      "bytes": 521042,
+      "sha256": "8f9e6cfac3e0905466ad68574a478dab7f5db5c8aba1743556e06b7dd65d9a33"
+    },
+    {
+      "path": "media/03-reviewer-parent-reviewer.gif",
+      "bytes": 3867513,
+      "sha256": "39fbdb2980c0daf4b0a4e1bf1cd2a5e07628e00f6d8413430be93f107fc2f85a"
+    },
+    {
+      "path": "original-video-verification.json",
+      "bytes": 337,
+      "sha256": "8b0e52218e170383282d78b955c11e375407b814ca620bce4224345943803146"
+    },
+    {
+      "path": "signature-verification.json",
+      "bytes": 1237,
+      "sha256": "0ca6c59fd87a4578ed0707611107138dece0b755090cf2208a016153c71dddf5"
+    },
+    {
+      "path": "sources.html",
+      "bytes": 208856,
+      "sha256": "90f896fc3a3c8c765c2f7a3bf0a4d1f9f30648bff4229e6b3b2b0ff330664342"
+    },
+    {
+      "path": "verification.html",
+      "bytes": 2950,
+      "sha256": "2e781f9de5e98db048a18646060448a394d60ad81dad44807e8e0a7098db1a17"
+    },
+    {
+      "path": "verify_release.py",
+      "bytes": 1386,
+      "sha256": "35bf85c7701d3694abbed9920d29ae5529dcd989bbf07cdeed594c8675a6519b"
+    }
+  ]
+}

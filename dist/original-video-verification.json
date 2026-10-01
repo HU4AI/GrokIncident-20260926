@@ -1,0 +1,15 @@
+{
+  "source_recording_sha256": "74f301e7cfc2f113b6f9d8851ae0e3f855186d99324a0adf35a6f6b7c6b19831",
+  "restart_frame_checks": [
+    {
+      "reference": "t411_90.png",
+      "cached": "00088.png",
+      "equal": true
+    },
+    {
+      "reference": "t411_93.png",
+      "cached": "00089.png",
+      "equal": true
+    }
+  ]
+}
