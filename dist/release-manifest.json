@@ -1,6 +1,6 @@
 {
   "title": "Grok Theater: the orchestrator",
-  "issued_utc_local_clock": "2026-10-01T11:54:57.378106+00:00",
+  "issued_utc_local_clock": "2026-10-01T12:08:10.261962+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
   "integrity_only": true,
   "files": [
@@ -16,13 +16,13 @@
     },
     {
       "path": "full-report.html",
-      "bytes": 102380,
-      "sha256": "82fcfe17c38ce50eff97bcd370e26f9d576040270f5eb89c1155a3d99ebb1c89"
+      "bytes": 104369,
+      "sha256": "feb61572db609def8e38cc22d9c5bb15f10ada91eedc92f3036e84d0f0e9bb1f"
     },
     {
       "path": "index.html",
-      "bytes": 68857,
-      "sha256": "bd9d662c8c82494ccad14b2d4a24b15ef2f6399755fe3e66b517ae172c330596"
+      "bytes": 71567,
+      "sha256": "f6c1af18ec8c8f158b6f804a1e81b33713168f10010bd813ab5a517353316244"
     },
     {
       "path": "integrity-certificate.cer",
@@ -186,8 +186,8 @@
     },
     {
       "path": "sources.html",
-      "bytes": 212271,
-      "sha256": "782326d3ff003962650b897d970ede83b23dca6761e1c809e171e677a197e077"
+      "bytes": 211700,
+      "sha256": "d880eb1ed0c19679043a8502c9b8d1cf368fe3c95609d6e94e9ca8cff4ecd07b"
     },
     {
       "path": "verification.html",
