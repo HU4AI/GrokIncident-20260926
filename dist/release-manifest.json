@@ -1,6 +1,6 @@
 {
-  "title": "Grok Theater: the orchestrator",
-  "issued_utc_local_clock": "2026-10-03T19:54:24.520200+00:00",
+  "title": "You are Grok 4.7: don't trust the orchestrator!",
+  "issued_utc_local_clock": "2026-10-03T21:41:29.445900+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
   "integrity_only": true,
   "files": [
@@ -21,13 +21,13 @@
     },
     {
       "path": "full-report.html",
-      "bytes": 110731,
-      "sha256": "2b638c0b271f3c3ffc04dab275c6fee50c5ad9f3d04d5a4930a8510f4504c146"
+      "bytes": 110783,
+      "sha256": "617fc1f9ceba53453d5463288b00fd33f426ebe09c536a26f1f4f137046c95c0"
     },
     {
       "path": "index.html",
-      "bytes": 89259,
-      "sha256": "7e8b40c10e0b44f61adb4fa6c385ec5febb8576bddcf097f55850a681ccb87eb"
+      "bytes": 89327,
+      "sha256": "2e0177a9f4b3e7f1ddf9c7ec5cfd6d611a2a002d3aee64bced8920fc768d45e1"
     },
     {
       "path": "integrity-certificate.cer",
@@ -176,8 +176,8 @@
     },
     {
       "path": "media/recording.html",
-      "bytes": 1902,
-      "sha256": "a6400c483645ffb123f949976423017ab3fabce4aa1e4e4de48e90bd05e4acdf"
+      "bytes": 1937,
+      "sha256": "bb9e98bfd45d640ff7a26b91bba6d8e7d1bc82dd1d54b21785bc268d9724170d"
     },
     {
       "path": "original-video-verification.json",
@@ -201,13 +201,13 @@
     },
     {
       "path": "sources.html",
-      "bytes": 220484,
-      "sha256": "49c6a59e0f97855486e7ff326a65d9c61d11a38acbcb9545a0e9c986e2cba52a"
+      "bytes": 220519,
+      "sha256": "4bf38647169ab71d19fdcfe21966e78e745e8a796c07048da5121a366d0f5f74"
     },
     {
       "path": "verification.html",
-      "bytes": 3810,
-      "sha256": "9e1fcfca8f219d1c57c04f708c03ed67dec29b7438476c9663bab6477462f655"
+      "bytes": 3845,
+      "sha256": "57ba9a64e6d9e9c100e3b40420221b468022830c9dd881ca2027905577d16593"
     },
     {
       "path": "verify_release.py",
