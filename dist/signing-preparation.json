@@ -1,0 +1,45 @@
+{
+  "prepared_utc_local_clock": "2026-10-03T19:46:19.605581+00:00",
+  "edition_date": "2026-10-03",
+  "state": "unsigned_awaiting_certificate_holder",
+  "file": "Grok-Theater-evidence-for-signing.pdf",
+  "sha256": "069325d6502be46bd3292ef4037facc6a465b441b1b12cfa4df83069bdb1c4aa",
+  "bytes": 2513646,
+  "pages": 99,
+  "empty_signature_field": "CertificateHolderSignature",
+  "embedded_signatures": 0,
+  "published": false,
+  "certificate_holder_name": null,
+  "certificate_issuer": null,
+  "earlier_issued_pdf_unchanged": true,
+  "earlier_issued_pdf_sha256": "3ba8f5f1e14eac051bd091ac01c554e49ca3ecf14b16371f72e2c9a99c51c591",
+  "signing_edition_manifest_sha256": "45f4e46c748e4168b28a9a2f587efd6a9a559855748361178a4d29dc8d6d03b5",
+  "historical_exhibits_preserved_verbatim": 108,
+  "verified_portable_case_sources": 78,
+  "added_sources": 13,
+  "html_inputs": [
+    {
+      "path": "output\\Grok-Theater-public\\dist\\index.html",
+      "sha256": "7e8b40c10e0b44f61adb4fa6c385ec5febb8576bddcf097f55850a681ccb87eb"
+    },
+    {
+      "path": "output\\Grok-Theater-public\\dist\\full-report.html",
+      "sha256": "2b638c0b271f3c3ffc04dab275c6fee50c5ad9f3d04d5a4930a8510f4504c146"
+    },
+    {
+      "path": "output\\Grok-Theater-public\\dist\\sources.html",
+      "sha256": "49c6a59e0f97855486e7ff326a65d9c61d11a38acbcb9545a0e9c986e2cba52a"
+    }
+  ],
+  "validation": "Content, independent narrative review, empty signature field, all-page rendering and layout checks passed.",
+  "visual_review": {
+    "pages_rendered": 99,
+    "all_page_contact_sheets_inspected": true,
+    "margin_flags": [],
+    "missing_glyphs": 0,
+    "bounded_publication_update": "Previously inspected all 99 pages; all pages changed by the final wording corrections were rendered and inspected again."
+  },
+  "certificate_chain_trust_verified": false,
+  "delivered_utc": "2026-10-03T19:48:09.150287+00:00",
+  "canonical_and_backup_sha256_match": true
+}

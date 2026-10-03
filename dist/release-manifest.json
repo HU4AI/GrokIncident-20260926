@@ -1,9 +1,14 @@
 {
   "title": "Grok Theater: the orchestrator",
-  "issued_utc_local_clock": "2026-10-03T04:09:31.643843+00:00",
+  "issued_utc_local_clock": "2026-10-03T19:48:40.388564+00:00",
   "certificate_sha256": "77d3444d0a50a677a3be12c5442de287f370392fd96ccba6fa7d67751347ada4",
   "integrity_only": true,
   "files": [
+    {
+      "path": "evidence-for-signing.pdf",
+      "bytes": 2513646,
+      "sha256": "069325d6502be46bd3292ef4037facc6a465b441b1b12cfa4df83069bdb1c4aa"
+    },
     {
       "path": "evidence-manifest.json",
       "bytes": 449241,
@@ -16,13 +21,13 @@
     },
     {
       "path": "full-report.html",
-      "bytes": 105072,
-      "sha256": "26b2c6f51cefa7d12abc8915b0cb30685f283cc905ed08dda73334a90792f338"
+      "bytes": 110731,
+      "sha256": "2b638c0b271f3c3ffc04dab275c6fee50c5ad9f3d04d5a4930a8510f4504c146"
     },
     {
       "path": "index.html",
-      "bytes": 79107,
-      "sha256": "29d583be326ed1dfec02454e131681109159ed9834d8e3dc5c4c00e7352d1c2e"
+      "bytes": 89259,
+      "sha256": "7e8b40c10e0b44f61adb4fa6c385ec5febb8576bddcf097f55850a681ccb87eb"
     },
     {
       "path": "integrity-certificate.cer",
@@ -185,14 +190,24 @@
       "sha256": "5ce50ca351c3f3fcf63bbda7d58df75b350cec6f44ada19ed7fed41081966b13"
     },
     {
+      "path": "signing-edition-manifest.json",
+      "bytes": 5203,
+      "sha256": "45f4e46c748e4168b28a9a2f587efd6a9a559855748361178a4d29dc8d6d03b5"
+    },
+    {
+      "path": "signing-preparation.json",
+      "bytes": 1975,
+      "sha256": "24ce15041b173d6059948ff92b8c49ccc3b4be6ad16029ee1c3d9d55e20ac01c"
+    },
+    {
       "path": "sources.html",
-      "bytes": 211700,
-      "sha256": "d880eb1ed0c19679043a8502c9b8d1cf368fe3c95609d6e94e9ca8cff4ecd07b"
+      "bytes": 220484,
+      "sha256": "49c6a59e0f97855486e7ff326a65d9c61d11a38acbcb9545a0e9c986e2cba52a"
     },
     {
       "path": "verification.html",
-      "bytes": 3099,
-      "sha256": "cc0e9be62812a9eb26549b276a1fe41d3bcd6701a6525820641a15902cec7f96"
+      "bytes": 3810,
+      "sha256": "9e1fcfca8f219d1c57c04f708c03ed67dec29b7438476c9663bab6477462f655"
     },
     {
       "path": "verify_release.py",

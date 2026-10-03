@@ -1,0 +1,113 @@
+{
+  "edition_date": "2026-10-03",
+  "title": "Grok Theater: the orchestrator — certificate signing edition",
+  "prepared_utc_local_clock": "2026-10-03T19:46:15.823209+00:00",
+  "scope": "Current reading text, complete expanded investigation, recorded frames, preserved October 1 exhibits and source index, recovered original Astra advice, and October 3 comparison addendum. Raw sources remain separately preserved.",
+  "reading_sources": [
+    {
+      "path": "output\\Grok-Theater-public\\dist\\index.html",
+      "sha256": "7e8b40c10e0b44f61adb4fa6c385ec5febb8576bddcf097f55850a681ccb87eb"
+    },
+    {
+      "path": "output\\Grok-Theater-public\\dist\\full-report.html",
+      "sha256": "2b638c0b271f3c3ffc04dab275c6fee50c5ad9f3d04d5a4930a8510f4504c146"
+    },
+    {
+      "path": "output\\Grok-Theater-public\\dist\\sources.html",
+      "sha256": "49c6a59e0f97855486e7ff326a65d9c61d11a38acbcb9545a0e9c986e2cba52a"
+    }
+  ],
+  "historical_evidence_manifest": {
+    "path": "output/Grok-Theater-public/dist/evidence-manifest.json",
+    "sha256": "645abbf07e2cc4bef367d534cdc04ca9b8a6f901df49fdd67c2729b1680530e3",
+    "date": "2026-10-01"
+  },
+  "historical_manifest_sources_verified_now": 78,
+  "additional_sources": [
+    {
+      "path": "pdf-update-20261003/sources/astra-original-advice.json",
+      "bytes": 6874,
+      "sha256": "251d20c4aabde68587346a7e642f6723f97b210773f7c7d0930ece35b821e4c3"
+    },
+    {
+      "path": "cursor-jsonl-identity-comparison-20261003T111241Z/comparison.json",
+      "bytes": 14712,
+      "sha256": "23577bb822c10b83f94005cd50d131e2f07cde30ca2eaff7f5c1fe09c9480b2f"
+    },
+    {
+      "path": "cursor-jsonl-identity-comparison-20261003T111241Z/parent-current.jsonl",
+      "bytes": 47199,
+      "sha256": "bdf0108c6c742ea6767049cfba2009d8820063a5f87b4c3187562dae6c403359"
+    },
+    {
+      "path": "cursor-jsonl-identity-comparison-20261003T111241Z/reviewer-current.jsonl",
+      "bytes": 314905,
+      "sha256": "beff14259ccd387c779180315b1e86df1f840fbd58825e24b948e1d959c58042"
+    },
+    {
+      "path": "cursor-unexpected-activity-20261003T044603Z/context-memory-examination.md",
+      "bytes": 6807,
+      "sha256": "005258dae04ad05a86287afba932ee83b0ba4749af34684b569086f0fefdd898"
+    },
+    {
+      "path": "cursor-unexpected-activity-20261003T044603Z/reviewer-reload-and-context-analysis.json",
+      "bytes": 13736,
+      "sha256": "1d2a397d64aa4938d3cc8038e19883e85aa7588ef33380533fbb52ed2e353415"
+    },
+    {
+      "path": "cursor-unexpected-activity-20261003T044603Z/reviewer-reloaded-text-provenance.json",
+      "bytes": 486,
+      "sha256": "aa1f1b108ee7cc11b177c0f310f39e7e3be974d5ab4dccf896ac476a969c9be9"
+    },
+    {
+      "path": "cursor-unexpected-activity-20261003T044603Z/confirmation-mode-gate-source.json",
+      "bytes": 3078,
+      "sha256": "73e3ef636c9b6f516b588f0d18e88bbe07c7be5c39ac918a09b6233a6a5f54f4"
+    },
+    {
+      "path": "cursor-crosslayer-20260928T2154Z/windows-records/windows-model-state.json",
+      "bytes": 1274,
+      "sha256": "f62283066c664097be3467eab4014244977f3162aaa1a8a3e51c6465e68c868e"
+    },
+    {
+      "path": "cursor-crosslayer-20260928T2154Z/windows-records/windows-target-bubbles.jsonl",
+      "bytes": 6343603,
+      "sha256": "2307fe52da39161b7df7519a59dae5d5e6edabfa74b9fc61b765122c5b83f00d"
+    },
+    {
+      "path": "astra-cursor-reconciliation-20260929/video-sequence/t089.jpg",
+      "bytes": 235824,
+      "sha256": "d3a509c416729889de8f4a0f3e292b6570162b564ec16e280d83b4ac1e242eca"
+    },
+    {
+      "path": "Cursor-cross-layer-comparison-20260929.md",
+      "bytes": 15667,
+      "sha256": "96e46ec51962af45e4eebd1094e6445b9e39c6c03e8a6c129b0e67dd4100ac2f"
+    },
+    {
+      "path": "soul-grok-review-20260928T2330Z/reviewer-dialogue.md",
+      "bytes": 126579,
+      "sha256": "596c90427e6daea8180eded741b311612cd0f4585d6944fcac2d565e34203650"
+    }
+  ],
+  "earlier_issued_pdf": {
+    "path": "output/Grok-Theater-public/dist/evidence.pdf",
+    "sha256": "3ba8f5f1e14eac051bd091ac01c554e49ca3ecf14b16371f72e2c9a99c51c591",
+    "unchanged": true
+  },
+  "corrections": [
+    "Original conditional power-off and two-copy advice recovered; earlier missing-advice statements superseded.",
+    "First assignment already listed twenty tasks; later instruction required stricter content comparison.",
+    "Restart notification is preserved, but initiating mechanism is not established.",
+    "Parent Grok4.6 metadata and seven Auto account rows distinguished from task-specific backend identity."
+  ],
+  "signature_status": "Unsigned; CertificateHolderSignature reserved for the user’s identity certificate.",
+  "limits": [
+    "Incomplete earlier global database capture.",
+    "Unknown initiating input for the renewed turns.",
+    "Specific backup/protocol window not definitively identified.",
+    "No established root cause for the hang or subsequent filesystem problem.",
+    "Auto-labelled account rows do not identify the task-specific serving model.",
+    "October 3 copied-client behavior must not be projected to September 26 without comparing that client."
+  ]
+}
