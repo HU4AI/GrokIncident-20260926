@@ -1,11 +1,11 @@
 {
-  "prepared_utc_local_clock": "2026-10-03T19:46:19.605581+00:00",
-  "edition_date": "2026-10-03",
+  "prepared_utc_local_clock": "2026-10-06T06:52:28.827478+00:00",
+  "edition_date": "2026-10-06",
   "state": "unsigned_awaiting_certificate_holder",
   "file": "Grok-Theater-evidence-for-signing.pdf",
-  "sha256": "069325d6502be46bd3292ef4037facc6a465b441b1b12cfa4df83069bdb1c4aa",
-  "bytes": 2513646,
-  "pages": 99,
+  "sha256": "951080ab079e1e1932f38834ec480e7891a4d1044445ce3703a3c085bfc1d900",
+  "bytes": 2523913,
+  "pages": 102,
   "empty_signature_field": "CertificateHolderSignature",
   "embedded_signatures": 0,
   "published": false,
@@ -13,33 +13,43 @@
   "certificate_issuer": null,
   "earlier_issued_pdf_unchanged": true,
   "earlier_issued_pdf_sha256": "3ba8f5f1e14eac051bd091ac01c554e49ca3ecf14b16371f72e2c9a99c51c591",
-  "signing_edition_manifest_sha256": "45f4e46c748e4168b28a9a2f587efd6a9a559855748361178a4d29dc8d6d03b5",
+  "signing_edition_manifest_sha256": "611e6fe197d3a715214a89b798ba8388028ad0ce5499fc7eeffac267b7bbb5d1",
   "historical_exhibits_preserved_verbatim": 108,
   "verified_portable_case_sources": 78,
-  "added_sources": 13,
+  "added_sources": 17,
   "html_inputs": [
     {
-      "path": "output\\Grok-Theater-public\\dist\\index.html",
-      "sha256": "7e8b40c10e0b44f61adb4fa6c385ec5febb8576bddcf097f55850a681ccb87eb"
+      "path": "public\\dist\\index.html",
+      "sha256": "a9b0affd04829e619af43bb3da762b71b9451a210b96b3b49f442c63ed43588b"
     },
     {
-      "path": "output\\Grok-Theater-public\\dist\\full-report.html",
-      "sha256": "2b638c0b271f3c3ffc04dab275c6fee50c5ad9f3d04d5a4930a8510f4504c146"
+      "path": "public\\dist\\full-report.html",
+      "sha256": "6017d1e64be82605f4975f9824ea11d870c42da80d4d68cafd1775aae6f4d937"
     },
     {
-      "path": "output\\Grok-Theater-public\\dist\\sources.html",
-      "sha256": "49c6a59e0f97855486e7ff326a65d9c61d11a38acbcb9545a0e9c986e2cba52a"
+      "path": "public\\dist\\sources.html",
+      "sha256": "9dfa82a7c1466cb88d817db716bea0164238935978c842f0eef52d8ab19443e4"
     }
   ],
-  "validation": "Content, independent narrative review, empty signature field, all-page rendering and layout checks passed.",
+  "validation": "Content, empty signature field, all-page margin check, internal link-target resolution and rendering of the new pages passed on 6 October 2026; full visual review of every page is pending.",
   "visual_review": {
-    "pages_rendered": 99,
-    "all_page_contact_sheets_inspected": true,
+    "pages_rendered": [
+      1,
+      4,
+      5,
+      30,
+      43
+    ],
     "margin_flags": [],
-    "missing_glyphs": 0,
-    "bounded_publication_update": "Previously inspected all 99 pages; all pages changed by the final wording corrections were rendered and inspected again."
+    "full_page_by_page_review_this_edition": false
   },
   "certificate_chain_trust_verified": false,
-  "delivered_utc": "2026-10-03T19:48:09.150287+00:00",
-  "canonical_and_backup_sha256_match": true
+  "delivered_utc": "2026-10-06T06:54:42.349491+00:00",
+  "canonical_and_backup_sha256_match": true,
+  "edition_note": "Second 6 October edition: final review of the public and full reports (repeated passages consolidated), section 10 with Grok 4.7’s after-the-fact answers and its source extract, em dashes replaced with regular dashes in the reading text.",
+  "supersedes": {
+    "edition_date": "2026-10-06",
+    "sha256": "72948db51e64d20413b7702bae23022e8194ae9df649e527f76a1749af088ec4",
+    "preserved_path": "pdf-update-20261003/before-20261006b/output/pdf/Grok-Theater-evidence-for-signing.pdf"
+  }
 }
