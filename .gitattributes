@@ -1,2 +1,2 @@
 # Preserve exact evidence and signed-manifest bytes across Windows and server checkouts.
-dist/** -text
+docs/** -text
